@@ -1,14 +1,17 @@
 Open main1.py. Before running it, what do you expect this program to do? 
-
+    #I think that the program will print out the greeting, then will print out the input question.
+    However, since there is no arguments for what the program will do, typing something in the input
+    will lead to nothing.
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
 
 What do you think the program did with what you typed?
+    #The program didn't really do anything, since there was no trigger for any input that may have been typed.
 
-
-
-Open main2.py. Before running it, describe how this is different than main1.py. 
+Open main2.py. Before running it, describe how this is different than main1.py.
+    #This program has a function that will print out the input.
 
 What do you think the color = input() will do? 
+    #"color" has been asigned to the input command, so printing 
 
 Run the program in the terminal and answer the question. Did the program do what you expected?
 
