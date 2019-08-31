@@ -11,10 +11,10 @@ Open main2.py. Before running it, describe how this is different than main1.py.
     #This program has a function that will print out the input.
 
 What do you think the color = input() will do? 
-    #"color" has been asigned to the input command, so printing 
+    #"color" has been asigned to the input command, so whatever color was typed into the input will be printed.
 
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+    #Yes.
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
 
@@ -22,61 +22,98 @@ What is happening on lines 11–14?
 
 Why are lines 12 and 14 indented? 
 
+    #This is different than the main2 file because it now has an if/else argument. The "if"
+    statement says that the input must be typed in exactly as "Red" to get the prompt of a
+    correct answer. Otherwise, any other word or typing will result in the "try again"
+    message. 
+
 Run the program and answer the question. What happens if you don’t capitalize Red? 
+
+    #Not capitalizing red will lead to the "try again" message.
 
 What does this tell you about "color"?
 
-
+    #The color input must be put in exactly like the assigned function.
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
+
+    #This file is also different due to having an if/else statement.
 
 What problem is this trying to solve? 
 
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
 
-
+    #This program is trying to solve the problem of the previous file, which is having
+    the answer be incorrect even if you typed "red", just uncaptilized. However, no other spelling
+    combinations will work in this regard (like spelling it as "Red").
 
 Open main5.py. What do you expect line 11 to do? 
 
 What problem is it trying to solve? 
 
+    #I expect the program to fix the spelling issue, by allowing different spellings of
+    the "red" to be corrected no matter what.
+
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
 
-
+    #Putting a space before or after the word will still register it as incorrect.
 
 Open main6.py. How is line 11 different than main5.py? 
 
+    #The line now has the function ".strip()" added.
+
 What would you guess .strip() is doing? 
+
+    #.strip() will probably make sure that even if there is a space before or after a word, it
+    will still be identified as the correct word.
 
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
 
-
+    #No.
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
+
+    #This file has more options when it comes to the outcome of the program. It
+    adds an elif statement, which will print out if the option for that outcome
+    is triggered.
 
 What is the purpose of line 11? 
 
 Run the program and answer the question.
 
-
+    #The purpose of line is to provide a new argument for the program to run through.
 
 Open main8.py. What is the purpose of line 11? 
 
+    #Line 11 has the "while" function, which will make the program loop as long as the
+    word inputed isn't the word "red".
+
 Why are lines 12–19 indented? 
+
+    #These lines are indented so that they will run under the "while" loop. Any lines
+    not indented under this function would not be read as being a part of it.
 
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
 
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 
-
+    #By making this change, it will begin a loop of printing out the response for the
+    wrong answer.
 
 Open main9.py. What is happening on line 12? 
 
+    #The line now has a count function.
+
 What is the purpose of “count”? 
+
+    #Count will act as a keeper of points.
 
 What is happening on line 22? 
 
 Run the program.
+
+    #Line 22 will tally up how many tries it took for the user to get to the correct
+    answer, which was the true purpose for the "count" function.
 
 
 *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]). 
@@ -84,3 +121,5 @@ Run the program.
 Commit your changes and push them back to the repository. 
 
 Did you do the extra credit?
+
+    #Yes.
